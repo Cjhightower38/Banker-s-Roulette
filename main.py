@@ -13,4 +13,4 @@ new_name_list = random.randint(0, name_list - 1)
 
 final_name_list = names[new_name_list]
 
-print(final_name_list + " will pay for the meal today!")
+print(final_name_list.capitalize() + " will pay for the meal today!")
